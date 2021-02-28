@@ -32,5 +32,5 @@ For each person: <br>
 Just run face_recognizer_trainer.py
 
 # How to Run the Face Recognizer
-After preparing images and training svm model, run face_recognizer.py.
+After preparing images and training svm model, run face_recognizer.py. <br>
 If you have already trained svm model and images are same, there is no need to train it again.
