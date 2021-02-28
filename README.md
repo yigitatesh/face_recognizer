@@ -6,8 +6,8 @@ There are two steps to prepare recognizer run:
 2. Run face_recognizer_trainer.py to train svm model
 
 ## Preparing images
-There are sample images in face_data/images folder.
-Crop faces from your images.
+There are sample images in face_data/images folder. <br>
+Crop faces from your images. <br>
 Create a subfolder named person's name for each person in face_data/images directory.
 
 ## Train recognizer model
