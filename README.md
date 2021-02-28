@@ -17,8 +17,12 @@ There are two steps to prepare recognizer run:
 
 ## Preparing images
 There are sample images in face_data/images folder. <br>
+You may delete my images. <br>
 Crop faces from your images. <br>
-Create a subfolder named person's name for each person in face_data/images directory.
+For each person: <br>
+- Create a subfolder for the person under the directory "face_data/images".
+- Name the subfolder as the person's name.
+- Put face images of the person to this subfolder.
 
 ## Train recognizer model
 Just run face_recognizer_trainer.py
