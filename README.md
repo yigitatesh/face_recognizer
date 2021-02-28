@@ -1,5 +1,15 @@
 # Face Recognizer
 
+# Requirements
+- keras
+- tensorflow-gpu
+- cuda and cudnn support
+- opencv-python
+- imutils
+- dlib
+- sklearn
+- pickle
+
 # How to prepare to run
 There are two steps to prepare recognizer run:
 1. Prepare images
