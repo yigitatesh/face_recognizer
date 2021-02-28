@@ -11,9 +11,13 @@
 - pickle
 
 # How to prepare to run
-There are two steps to prepare recognizer run:
-1. Prepare images
-2. Run face_recognizer_trainer.py to train svm model
+There are three steps to prepare recognizer run:
+1. Extract facenet_keras.rar file
+2. Prepare images
+3. Run face_recognizer_trainer.py to train svm model
+
+## Extracting facenet model data
+Extract "facenet_keras.rar" file in "models" directory.
 
 ## Preparing images
 There are sample images in face_data/images folder. <br>
