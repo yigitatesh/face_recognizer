@@ -1,4 +1,4 @@
-# face_recognizer
+# Face Recognizer
 
 # How to prepare to run
 There are two steps to prepare recognizer run:
