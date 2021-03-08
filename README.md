@@ -12,7 +12,6 @@ A program which can recognize known faces that are used to train the classifier 
 - pickle
 
 # How to prepare to run
-There are three steps to prepare recognizer run:
 1. Extract facenet_keras.rar file
 2. Prepare images
 3. Run face_recognizer_trainer.py to train svm model
