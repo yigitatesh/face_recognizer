@@ -40,3 +40,7 @@ Faces are detected by face detector of dlib library. <br>
 Facenet model extracts meaningful information from images. <br>
 These information are called "embeddings" and they are 1D vectors containing 128 numbers. <br>
 Embeddings are being classified by SVM Classifier. <br>
+
+# Results
+## Face Recognizer's output on an image
+![test image](https://raw.githubusercontent.com/yigitatesh/face_recognizer/main/results/face_recognizing_test.PNG)
