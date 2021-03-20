@@ -44,3 +44,6 @@ Embeddings are being classified by SVM Classifier. <br>
 # Results
 ## Face Recognizer's output on an image
 ![test image](https://raw.githubusercontent.com/yigitatesh/face_recognizer/main/results/face_recognizing_test.PNG)
+
+## Output on a video
+![test video](https://raw.githubusercontent.com/yigitatesh/face_recognizer/main/results/face_recognizing_test.gif)
