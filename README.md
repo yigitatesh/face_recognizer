@@ -1,5 +1,5 @@
 # Face Recognizer
-A program which can recognize known faces that are used to train the classifier model.
+A program that can recognize known faces that are used to train the classifier model.
 
 # Requirements
 - keras
