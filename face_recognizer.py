@@ -1,21 +1,26 @@
-from keras.models import load_model
+# info message
+print("Loading Models...")
+
 import cv2
 import os
 import numpy as np
 import pickle
 import time
-
+ 
 import dlib
 from imutils import face_utils
 
 from sklearn.preprocessing import Normalizer
 from sklearn.svm import SVC
 
+from keras.models import load_model
+
 ## CHANGABLE VARIABLES ##
 # threshold value evaluates whether a face is known or unknown
 THRESHOLD = 0.8
 
 # USE FULL POWER OF GPU
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 
 # LOAD PRETRAINED SVM MODEL
